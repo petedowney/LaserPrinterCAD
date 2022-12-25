@@ -250,6 +250,87 @@ update_mappings/fast:
 	$(MAKE) $(MAKESILENT) -f _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build.make _deps/raylib-build/raylib/external/glfw/src/CMakeFiles/update_mappings.dir/build
 .PHONY : update_mappings/fast
 
+src/Program.o: src/Program.cpp.o
+
+.PHONY : src/Program.o
+
+# target to build an object file
+src/Program.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o
+.PHONY : src/Program.cpp.o
+
+src/Program.i: src/Program.cpp.i
+
+.PHONY : src/Program.i
+
+# target to preprocess a source file
+src/Program.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.i
+.PHONY : src/Program.cpp.i
+
+src/Program.s: src/Program.cpp.s
+
+.PHONY : src/Program.s
+
+# target to generate assembly for a file
+src/Program.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.s
+.PHONY : src/Program.cpp.s
+
+src/Screens/Screen.o: src/Screens/Screen.cpp.o
+
+.PHONY : src/Screens/Screen.o
+
+# target to build an object file
+src/Screens/Screen.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o
+.PHONY : src/Screens/Screen.cpp.o
+
+src/Screens/Screen.i: src/Screens/Screen.cpp.i
+
+.PHONY : src/Screens/Screen.i
+
+# target to preprocess a source file
+src/Screens/Screen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.i
+.PHONY : src/Screens/Screen.cpp.i
+
+src/Screens/Screen.s: src/Screens/Screen.cpp.s
+
+.PHONY : src/Screens/Screen.s
+
+# target to generate assembly for a file
+src/Screens/Screen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.s
+.PHONY : src/Screens/Screen.cpp.s
+
+src/Screens/ScreenManager.o: src/Screens/ScreenManager.cpp.o
+
+.PHONY : src/Screens/ScreenManager.o
+
+# target to build an object file
+src/Screens/ScreenManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o
+.PHONY : src/Screens/ScreenManager.cpp.o
+
+src/Screens/ScreenManager.i: src/Screens/ScreenManager.cpp.i
+
+.PHONY : src/Screens/ScreenManager.i
+
+# target to preprocess a source file
+src/Screens/ScreenManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.i
+.PHONY : src/Screens/ScreenManager.cpp.i
+
+src/Screens/ScreenManager.s: src/Screens/ScreenManager.cpp.s
+
+.PHONY : src/Screens/ScreenManager.s
+
+# target to generate assembly for a file
+src/Screens/ScreenManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LaserPrinterCAD.dir/build.make CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.s
+.PHONY : src/Screens/ScreenManager.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -295,6 +376,15 @@ help:
 	@echo "... LaserPrinterCAD"
 	@echo "... glfw"
 	@echo "... raylib"
+	@echo "... src/Program.o"
+	@echo "... src/Program.i"
+	@echo "... src/Program.s"
+	@echo "... src/Screens/Screen.o"
+	@echo "... src/Screens/Screen.i"
+	@echo "... src/Screens/Screen.s"
+	@echo "... src/Screens/ScreenManager.o"
+	@echo "... src/Screens/ScreenManager.i"
+	@echo "... src/Screens/ScreenManager.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

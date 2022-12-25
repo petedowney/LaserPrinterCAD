@@ -464,6 +464,24 @@
 		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/_deps/raylib-src/src/utils.h">
 			<Option target="raylib"/>
 		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.cpp">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.h">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.cpp">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.h">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.cpp">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
+		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.h">
+			<Option target="LaserPrinterCAD"/>
+		</Unit>
 		<Unit filename="/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/main.cpp">
 			<Option target="LaserPrinterCAD"/>
 		</Unit>

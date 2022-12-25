@@ -4,6 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.cpp" "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o"
+  "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.cpp" "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o"
+  "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.cpp" "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o"
   "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/main.cpp" "/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

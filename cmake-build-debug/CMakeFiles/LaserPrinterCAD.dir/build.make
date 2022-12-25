@@ -89,19 +89,64 @@ CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/main.cpp -o CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.s
 
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: CMakeFiles/LaserPrinterCAD.dir/flags.make
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../src/Program.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o -c /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.cpp
+
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.cpp > CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.i
+
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Program.cpp -o CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.s
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: CMakeFiles/LaserPrinterCAD.dir/flags.make
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: ../src/Screens/ScreenManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o -c /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.cpp
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.cpp > CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.i
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/ScreenManager.cpp -o CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.s
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o: CMakeFiles/LaserPrinterCAD.dir/flags.make
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o: ../src/Screens/Screen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o -c /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.cpp
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.cpp > CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.i
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/petedowney/Documents/GitHub/LaserPrinterCAD/src/Screens/Screen.cpp -o CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.s
+
 # Object files for target LaserPrinterCAD
 LaserPrinterCAD_OBJECTS = \
-"CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o"
+"CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o" \
+"CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o" \
+"CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o" \
+"CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o"
 
 # External object files for target LaserPrinterCAD
 LaserPrinterCAD_EXTERNAL_OBJECTS =
 
 LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o
+LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o
+LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o
+LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o
 LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/build.make
 LaserPrinterCAD: _deps/raylib-build/raylib/libraylib.a
 LaserPrinterCAD: _deps/raylib-build/raylib/external/glfw/src/libglfw3.a
 LaserPrinterCAD: CMakeFiles/LaserPrinterCAD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LaserPrinterCAD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/petedowney/Documents/GitHub/LaserPrinterCAD/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable LaserPrinterCAD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LaserPrinterCAD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -33,7 +33,7 @@ include_directories(${PROJECT_SOURCE_DIR}/Linking/include)
 #is lib folder set up no clue
 
 # Declaring executable
-add_executable(LaserPrinterCAD src/main.cpp)
+add_executable(LaserPrinterCAD src/main.cpp src/Program.cpp src/Program.h src/Screens/ScreenManager.cpp src/Screens/ScreenManager.h src/Screens/Screen.h)
 target_sources(${PROJECT_NAME} PRIVATE ${PROJECT_SOURCES})
 target_include_directories(${PROJECT_NAME} PRIVATE ${PROJECT_INCLUDE})
 target_link_libraries(${PROJECT_NAME} PRIVATE raylib)
