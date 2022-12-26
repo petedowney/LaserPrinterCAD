@@ -9,21 +9,20 @@
 #include <glm/glm.hpp>
 #include "Screens/ScreenManager.h"
 
+static glm::vec2 screenDimensions = {1200, 750};
+static char* const WINDOW_TITLE = "LC-CAD";
+static float getScreenWidth();
+static float getScreenHeight();
+static glm::vec2 getScreenDimensions();
+static std::string getWindowTitle();
+
 class Program {
 
 public:
     Program();
-    float getScreenWidth();
-    float getScreenHeight();
-    glm::vec2 getScreenDimensions();
-    std::string getWindowTitle();
-
 
     void run();
 private:
-    glm::vec2 screenDimensions = {1200, 750};
-    char* const WINDOW_TITLE = "LC-CAD";
-
     ScreenManager screenManager;
 
     void render();

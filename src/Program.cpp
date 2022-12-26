@@ -14,19 +14,11 @@ Program::Program() {
 void Program::run() {
 
     InitWindow((int)screenDimensions.x, (int)screenDimensions.y, WINDOW_TITLE);
-
     SetTargetFPS(60);
 
     while (!WindowShouldClose()) {
-
-        BeginDrawing();
-
-        ClearBackground(WHITE);
-
         update();
         render();
-
-        EndDrawing();
     }
 
 }
@@ -37,23 +29,27 @@ void Program::update() {
 }
 
 void Program::render() {
+    BeginDrawing();
 
+    ClearBackground(WHITE);
     screenManager.render();
+
+    EndDrawing();
 }
 
-float Program::getScreenWidth() {
+static float getScreenWidth() {
     return screenDimensions.x;
 }
 
-float Program::getScreenHeight() {
+static float getScreenHeight() {
     return screenDimensions.y;
 }
 
-glm::vec2 Program::getScreenDimensions() {
+static glm::vec2 getScreenDimensions() {
     return screenDimensions;
 }
 
-std::string Program::getWindowTitle() {
+static std::string getWindowTitle() {
     return WINDOW_TITLE;
 }
 

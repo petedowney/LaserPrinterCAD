@@ -154,7 +154,18 @@ CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../Linking/include/glm/vec4.hp
 CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../Linking/include/glm/vector_relational.hpp
 CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../src/Program.cpp
 CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../src/Program.h
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../src/Screens/Screen.h
+CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: ../src/Screens/ScreenManager.h
 CMakeFiles/LaserPrinterCAD.dir/src/Program.cpp.o: _deps/raylib-src/src/raylib.h
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o: ../src/Screens/Screen.cpp
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o: ../src/Screens/Screen.h
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/Screen.cpp.o: _deps/raylib-src/src/raylib.h
+
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: ../src/Screens/Screen.h
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: ../src/Screens/ScreenManager.cpp
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: ../src/Screens/ScreenManager.h
+CMakeFiles/LaserPrinterCAD.dir/src/Screens/ScreenManager.cpp.o: _deps/raylib-src/src/raylib.h
 
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../Linking/include/glm/common.hpp
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../Linking/include/glm/detail/_fixes.hpp
@@ -308,5 +319,8 @@ CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../Linking/include/glm/vec3.hpp
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../Linking/include/glm/vec4.hpp
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../Linking/include/glm/vector_relational.hpp
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../src/Program.h
+CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../src/Screens/Screen.h
+CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../src/Screens/ScreenManager.h
 CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/LaserPrinterCAD.dir/src/main.cpp.o: _deps/raylib-src/src/raylib.h
 
